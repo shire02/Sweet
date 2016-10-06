@@ -39,7 +39,6 @@ namespace Sweet.Controllers
                 return HttpNotFound();
             }
             return View(ticket);
-            ModelState.Clear();
         }
 
         // GET: Tickets/Create
